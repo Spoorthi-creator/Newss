@@ -21,7 +21,7 @@ export default function Entertainment() {
   }, []);
   return (
     <>
-      {Object.keys(data).length > 0 && (
+      {data.articles && (
         
         <ImageBackground source={require('../assets/entertainment.jpg')} style={{ flex: 1, marginTop:'10%'}}>
         <View style={{flexDirection: 'row',width:'90%', marginTop:'3%',marginLeft:'3%' ,marginRight:'3%', justifyContent:'space-between'}}>
