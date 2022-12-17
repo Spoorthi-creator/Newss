@@ -46,7 +46,7 @@ export default function Home({navigation}) {
   }, []);
   return (
     <>
-      {Object.keys(data).length > 0 && (
+      {data.articles && (
         
         <ImageBackground source={require('../assets/headlines.png')} resizeMode="contain" style={{ flex: 1, marginTop:'10%'}}>
  
